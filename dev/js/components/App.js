@@ -1,16 +1,17 @@
 import React from 'react';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-detail';
+import MovieList from '../containers/movie-list';
+import MovieDetail from '../containers/movie-detail';
 require('../../scss/style.scss');
 
+
 const App = () => (
-    <div>
-        <h2>User List</h2>
-        <UserList />
-        <hr />
-        <h2>User Details</h2>
-        <UserDetails />
-    </div>
+  <div>
+    <h2>Movie List</h2>
+    <MovieList/>
+    <hr/>
+    <h2>Movie Details:</h2>
+    <MovieDetail />
+  </div>
 );
 
 export default App;
